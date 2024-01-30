@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    overflow: hidden;
+}
+.GifSize{
+width: 100%;
+    height: 60px;
+}
+.LogoSize{
+    float: right;
+    width: 120px;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 13px;
+
+}
+.Search{
+    float: right;
+    margin-top: 17px;
+    margin-right: 50px;
+    height: 35px;
+    width: 470px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    border-color: aliceblue;
+    background-color: #b6b9b7;
+
+
+}
+.LogoShop{
+    width: 2%;
+    margin-top: 11px;
+    margin-left: 20px;
+
+}
+.Size1{
+    margin-left: 79px;
+    margin-top: -36px;
+    border-style: solid;
+    width: 90px;
+    text-align: center;
+    height: 30px;
+    border-radius: 7px;
+    border-color: #b6b9b7;
+    color: black;
+}
+.Size1 a{
+    text-decoration: none;
+    color: black;
+}
+.Navbar li{
+position: relative;
+    left: 170px;
+    bottom: 8px;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 27px;
+    float: right;
+}
+.IconSearch{
+    height: 25px;
+    float: right;
+ margin-right: -31px;
+    margin-top: 22px;
+}
+
+.Navbar a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+.Navbar a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: crimson;
+    margin-top: 7px;
+    display: block;
+
+}
+.Navbar a:hover::after{
+    width: 100%;
+    transition: width 0.4s linear;
+}
+.Navbar a{
+    color: black;
+    text-decoration: none;
+}
+.box{
+    box-shadow: 0 0 1px 1px #b6b9b7;
+}
+.ItemList{
+    width: 171px;
+    height: 531px;
+    float: right;
+    display:block;
+    margin-right: 40px;
+    margin-top: -90px;
+    text-align: right;
+    background: #eee;
+    border-bottom-right-radius: 5px;
+
+}
+.ItemList a{
+    float: right;
+    padding: 10px 20px 15px 20px;
+    text-decoration: none;
+    color: black;
+}
+.ItemList li{
+    list-style-type: none;
+    display: inline-block;
+ 
+}
+.ItemList a:hover{
+    color: crimson;
+    transition: 0.5s;
+
+}
+.ItemList ul:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.ItemList2{
+    width: 554px;
+    height: 511px;
+    float: right;
+    display:block;
+    margin-right: 0;
+    margin-top: -89px;
+    text-align: right;
+    background: white;
+    overflow: scroll;
+    border-bottom-left-radius: 5px;
+}
+.ItemList2 li {
+    list-style-type: none;
+    display: inline-block;
+}
+.ItemList2  a{
+    float: right;
+    padding: 10px 20px 15px 20px;
+    text-decoration: none;
+    color: black;
+}
+.ItemList2 ul:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+
+#Load{
+    display: none;
+}
+.Search:hover{
+   box-shadow: 0 0 5px 5px crimson;
+    transition: 0.5s;
+}
+@media screen {
+    max-width: 600px;
+
+}
+
+.Navbar ul a{
+    cursor: pointer;
+}
+#kl {
+    object-fit: cover;
+    border-radius: 99999px;
+    height: 120px;
+    width: 120px;
+    margin-top: -70px;
+}
+.Story li{
+    display: inline-block;
+    padding-left: 80px;
+    padding-top: -300px;
+    margin-bottom: -50px;
+}
+.Story img{
+    height: 60px;
+    width: 60px;
+    border-radius: 999%;
+    object-fit: cover;
+    transition: all .3s cubic-bezier(.499,.05,.55,.95);
+    display: block;
+    z-index: 0;
+    background: linear-gradient(black, black)
+    padding-box,
+    linear-gradient(to right, blue, red) border-box;
+    border: 2px solid transparent;
+
+}
+.Story img:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+
+}
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: red;
+    border-radius: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 10px;
+
+
+}
+.btn-box:hover {
+    box-shadow: 0 0 5px red,
+    0 0 5px red, 0 0 5px red,
+    0 0 10px red, 0 0 20px red;
+}
+.btn-box a{
+    text-decoration: none;
+    color: black;
+
+}
+.btn-box img{
+    height: 25px;
+    position: absolute;
+}
+.header{
+    width: 100%;
+    height: 130px;
+}
+.Load{
+    position: absolute;
+    right: -4px;
+    z-index: 100;
+}
+.Story5 li{
+    display: inline-block;
+    padding-left: 170px;
+    padding-top: 10px;
+    margin-bottom: -50px;
+}
+.Story5 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 20%;
+    object-fit: cover;
+    transition: all .3s cubic-bezier(.499,.05,.55,.95);
+    display: block;
+    z-index: 0;
+}
+.Story5 img:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.img-left img {
+    height: 145px;
+    width: 50px;
+    position: absolute;
+    left: 24px;
+    top: 160px;
+}
+.img-right img {
+    height: 650px;
+    width: 50px;
+    position: absolute;
+    right: 24px;
+    top: 160px;
+}
+.sec {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.Pic {
+    top: 50px;
+    position: absolute;
+}
