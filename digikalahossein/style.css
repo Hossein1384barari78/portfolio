@@ -297,3 +297,39 @@ width: 100%;
     margin-right: 241px;
     border-radius: 20px;
 }
+.white2 {
+    width: 191px;
+    height: 335px;
+    background: white;
+    margin-top: -347px;
+    float: right;
+    margin-right: 437px;
+    border-radius: 20px;
+}
+.white3 {
+    width: 191px;
+    height: 335px;
+    background: white;
+    margin-top: -347px;
+    float: right;
+    margin-right: 633px;
+    border-radius: 20px;
+}
+.white4 {
+    width: 191px;
+    height: 335px;
+    background: white;
+    margin-top: -347px;
+    float: right;
+    margin-right: 829px;
+    border-radius: 20px;
+}
+.white5 {
+    width: 191px;
+    height: 335px;
+    background: white;
+    margin-top: -347px;
+    float: left;
+    margin-left: 150px;
+    border-radius: 20px;
+}
