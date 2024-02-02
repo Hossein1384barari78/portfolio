@@ -93,11 +93,11 @@ width: 100%;
     box-shadow: 0 0 1px 1px #b6b9b7;
 }
 .ItemList{
-    width: 171px;
-    height: 531px;
+    width: 166px;
+    height: 512px;
     float: right;
     display:block;
-    margin-right: 40px;
+    margin-right: 19px;
     margin-top: -90px;
     text-align: right;
     background: #eee;
