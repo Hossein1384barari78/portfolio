@@ -341,3 +341,14 @@ width: 100%;
     border-radius: 50px;
     margin-left: 40px;
 }
+.photos{
+    width: 100px;
+    height: 90px;
+    margin-top: 10px;
+}
+.type {
+    margin-top: 42px;
+    float: right;
+    margin-right: 588px;
+    font-size: 19px;
+}
